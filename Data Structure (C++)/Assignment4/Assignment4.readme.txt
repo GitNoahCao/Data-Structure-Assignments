@@ -1,0 +1,28 @@
+//Noah Cao
+
+
+
+**In this Assignment, I used Linked List .There is a header file with the cpp file,I uploaded together. Make all will compile everything automatically.
+
+**I hard code the filename,currently it read from sample1.txt. If user want to test other files just change the file name in the code.
+
+**I use function head_insert(Node*&, int) to insert new number in the head of 2 lists.
+
+**I set boolean found to false.
+
+**while list1 isn't empty and found is false
+	
+	find biggest number of list1
+	
+   if biggest number of list1 is found in list2
+		
+       remove biggest number of list1
+	
+   else
+		
+   output biggest number of list1
+		
+   set found to true
+
+   if found is false
+   output "NONE"
